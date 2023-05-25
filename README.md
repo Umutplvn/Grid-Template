@@ -18,8 +18,6 @@ At the end of the this coding challenge, students will be able to;
 
 - Write a code that creates a css grid.
 
-![CSS Grid](./css-grid.png)
-
 * Functionally similar to this: [CSS Grid](https://codepen.io/AaronClarusway/full/wvGpaXP)
 
 - If you see the pic above, you will see 1 header, 3 small box, 1 sidebar image,1 main content,and 1 footer 
