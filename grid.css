@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+   
+}
+body{
+    
+    margin:60px auto;
+}
+
+.container{
+    width: 600px;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat (5, 1fr);
+    gap: 7px;
+}
+
+.box{
+    
+    background-color: #4169E1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.header{
+    grid-column: span 4;
+}
+
+.sb{
+    grid-row: span 2;
+}
+
+.sidebar{
+    grid-row: span 3;
+}
+
+.mc{
+    grid-column: span 3;
+}
+
+.footer{
+    grid-column: span 4;
+}
